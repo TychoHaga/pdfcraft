@@ -2,17 +2,62 @@
 <html lang="nl">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#14243c" />
+    <meta name="description" content="Bewerk PDF-bestanden gratis en privé in je browser. Geen account, AI of abonnement nodig." />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <title>Gratis PDF-editor</title>
-    <meta name="description" content="Bewerk PDF-bestanden gratis in je browser, zonder account of abonnement." />
     <link data-trunk rel="rust" data-wasm-opt="z" />
     <style>
-      html, body { margin: 0; height: 100%; overflow: hidden; background: #f1f1f3; }
-      canvas { width: 100%; height: 100%; display: block; outline: none; }
-      @media (prefers-color-scheme: dark) { html, body { background: #19191c; } }
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #f1f1f3; }
+      #pdfcraft { display: block; width: 100%; height: 100%; height: 100dvh; outline: none; touch-action: none; }
+      #loading { position: fixed; inset: 0; display: grid; place-content: center; gap: 12px; text-align: center; background: #f7f9fc; color: #14243c; z-index: 1; padding: 24px; }
+      #loading strong { font-size: 22px; letter-spacing: -.03em; }
+      #loading span { color: #58677d; font-size: 14px; }
+      #loading button { border: 0; border-radius: 10px; background: #173b72; color: white; padding: 12px 18px; font: inherit; cursor: pointer; }
+      #loading[hidden] { display: none; }
+      @media (prefers-color-scheme: dark) {
+        html, body { background: #19191c; }
+        #loading { background: #19191c; color: #f4f6fa; }
+        #loading span { color: #b4bfce; }
+      }
     </style>
   </head>
   <body>
-    <canvas id="pdfcraft"></canvas>
+    <div id="loading" role="status" aria-live="polite">
+      <strong>Gratis PDF-editor</strong>
+      <span id="loading-message">De editor wordt geladen. Je bestanden blijven op je apparaat zolang je ze niet zelf deelt.</span>
+      <button id="reload" type="button" hidden>Opnieuw proberen</button>
+    </div>
+    <canvas id="pdfcraft" aria-label="PDF-editor"></canvas>
+    <script>
+      (() => {
+        const overlay = document.getElementById("loading");
+        const message = document.getElementById("loading-message");
+        const reload = document.getElementById("reload");
+        reload.addEventListener("click", () => location.reload());
+        const canvas = document.getElementById("pdfcraft");
+        const observer = new MutationObserver(() => {
+          if (canvas.width > 300 && canvas.height > 150) {
+            overlay.hidden = true;
+            observer.disconnect();
+          }
+        });
+        observer.observe(canvas, { attributes: true, attributeFilter: ["width", "height"] });
+        window.addEventListener("error", () => {
+          if (!overlay.hidden) {
+            message.textContent = "De editor kon niet worden geladen. Controleer je verbinding en probeer het opnieuw.";
+            reload.hidden = false;
+          }
+        });
+        window.addEventListener("unhandledrejection", () => {
+          if (!overlay.hidden) {
+            message.textContent = "Er is iets misgegaan tijdens het starten.";
+            reload.hidden = false;
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

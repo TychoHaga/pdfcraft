@@ -390,7 +390,9 @@ fn first_supported(list: &str) -> Option<Lang> {
 
 #[cfg(target_arch = "wasm32")]
 fn detect_system_lang() -> Lang {
-    Lang::EN
+    // The independent Dutch web edition defaults to Dutch when the browser cannot
+    // provide a locale; explicit language preferences still take precedence.
+    Lang::from_code("nl").unwrap_or(Lang::EN)
 }
 
 thread_local! {

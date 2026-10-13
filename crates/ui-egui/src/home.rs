@@ -21,7 +21,7 @@ fn card_lift(ui: &egui::Ui, t: &Tokens, rect: Rect, press: theme::Press) {
 pub fn show(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
     let t = Tokens::get(ui.ctx());
     egui::ScrollArea::vertical().auto_shrink([false, false]).show(ui, |ui| {
-        egui::Frame::NONE.inner_margin(egui::Margin { left: 16, right: 16, top: 18, bottom: 18 }).show(ui, |ui| {
+        egui::Frame::NONE.inner_margin(egui::Margin { left: 10, right: 10, top: 14, bottom: 14 }).show(ui, |ui| {
             ui.label(egui::RichText::new(tl!("Welcome to PdfCraft")).font(theme::semibold(24.0)));
             ui.label(
                 egui::RichText::new(tl!("An open-source PDF workbench — local, private, and scriptable."))
@@ -31,7 +31,7 @@ pub fn show(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
             ui.add_space(14.0);
             // The original project's trademarked community panel is intentionally omitted
             // from this independently branded fork.
-            ui.add_space(22.0);
+            ui.add_space(8.0);
 
             egui::Frame::NONE
                 .fill(t.card)
@@ -43,10 +43,10 @@ pub fn show(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
                     ui.label(egui::RichText::new(tl!("Recommended tools")).font(theme::semibold(15.0)));
                     ui.add_space(10.0);
                     ui.horizontal_wrapped(|ui| {
-                        ui.spacing_mut().item_spacing = vec2(14.0, 14.0);
+                        ui.spacing_mut().item_spacing = vec2(10.0, 10.0);
                         for id in RECOMMENDED {
                             let Some(g) = catalog::group(id) else { continue };
-                            let (rect, resp) = ui.allocate_exact_size(vec2(if ui.available_width() < 390.0 { 145.0 } else { 190.0 }, 104.0), Sense::click());
+                            let (rect, resp) = ui.allocate_exact_size(vec2(if ui.available_width() < 390.0 { ui.available_width().max(120.0) } else { 190.0 }, 104.0), Sense::click());
                             resp.widget_info(|| egui::WidgetInfo::labeled(egui::WidgetType::Button, true, tl!(g.label)));
                             let press = theme::Press::track(ui, &resp);
                             card_lift(ui, &t, rect, press);
@@ -84,7 +84,7 @@ pub fn show(app: &mut PdfCraftApp, ui: &mut egui::Ui) {
                                 app.select_tool(g.id);
                             }
                         }
-                        let (rect, resp) = ui.allocate_exact_size(vec2(if ui.available_width() < 390.0 { 145.0 } else { 170.0 }, 104.0), Sense::click());
+                        let (rect, resp) = ui.allocate_exact_size(vec2(if ui.available_width() < 390.0 { ui.available_width().max(120.0) } else { 170.0 }, 104.0), Sense::click());
                         resp.widget_info(|| egui::WidgetInfo::labeled(egui::WidgetType::Button, true, tl!("Open file")));
                         let press = theme::Press::track(ui, &resp);
                         card_lift(ui, &t, rect, press);

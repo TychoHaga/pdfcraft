@@ -12,30 +12,32 @@ permissions:
 jobs:
   check-upstream:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
-      - name: Check original repository without changing this fork
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check original repository without merging or deploying
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         shell: bash
         run: |
           set -euo pipefail
-          upstream="storytold/pdfcraft"
-          upstream_sha="$(gh api "repos/$upstream/commits/main" --jq '.sha')"
-          fork_sha="$(gh api "repos/$REPO/commits/main" --jq '.sha')"
-          compare="$(gh api "repos/$REPO/compare/main...$upstream:main")"
-          ahead="$(jq -r '.ahead_by' <<< "$compare")"
-          behind="$(jq -r '.behind_by' <<< "$compare")"
+          git remote add upstream https://github.com/storytold/pdfcraft.git
+          git fetch --no-tags upstream main
+          fork_sha="$(git rev-parse origin/main)"
+          upstream_sha="$(git rev-parse FETCH_HEAD)"
+          incoming="$(git rev-list --count "$fork_sha..$upstream_sha")"
           echo "Fork main: $fork_sha"
           echo "Upstream main: $upstream_sha"
-          echo "Ahead by: $ahead; behind by: $behind"
-          if [ "$ahead" -eq 0 ]; then
+          echo "New upstream commits: $incoming"
+          if [ "$incoming" -eq 0 ]; then
             echo "No upstream changes to review."
             exit 0
           fi
           title="Upstream PDFCraft updates available"
-          body="$(printf 'The original repository has %s commit(s) not yet in this fork.\n\nUpstream: https://github.com/storytold/pdfcraft\nCompare: https://github.com/%s/compare/main...storytold:main\n\nReview changes, merge carefully into a separate branch, run the web build and test branding/localization before publishing. Nothing has been merged or deployed automatically.\n' "$ahead" "$REPO")"
+          body="$(printf 'The original PDFCraft repository has %s commit(s) not yet present in this fork.\n\nOriginal: https://github.com/storytold/pdfcraft\nFork: https://github.com/%s\nUpstream commit: %s\n\nReview and integrate on a separate branch. Check licensing, branding and Dutch translations, then run build/tests before publishing. No code was merged or deployed by this check.\n' "$incoming" "$REPO" "$upstream_sha")"
           existing="$(gh issue list --repo "$REPO" --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
           if [ -n "$existing" ]; then
             gh issue edit "$existing" --repo "$REPO" --body "$body"

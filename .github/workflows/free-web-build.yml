@@ -1,0 +1,46 @@
+name: Build free PDFCraft web artifact
+
+# Runs only when explicitly requested or when this workflow changes in a PR.
+# No automatic deployment or paid hosting integrations.
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "apps/pdfcraft-web/**"
+      - "crates/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - ".github/workflows/free-web-build.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - name: Install Trunk
+        run: cargo install trunk --locked
+      - name: Build static web application
+        working-directory: apps/pdfcraft-web
+        run: trunk build --release
+      - name: Validate output
+        run: |
+          test -s dist/web/index.html
+          find dist/web -name '*.wasm' -size +0c | grep -q .
+          test -d dist/web
+          cp packaging/web/_headers dist/web/_headers
+          echo "Static web build complete; deployment is intentionally manual."
+      - name: Upload static site for manual deployment
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfcraft-static-site
+          path: dist/web/
+          if-no-files-found: error
+          retention-days: 3

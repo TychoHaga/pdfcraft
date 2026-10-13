@@ -1,7 +1,7 @@
 # Build the Rust/WebAssembly app when Netlify deploys directly from GitHub.
 # Netlify builds consume build minutes; GitHub Actions artifacts remain an alternative.
 [build]
-  command = "rustup target add wasm32-unknown-unknown && cargo install trunk --locked && cd apps/pdfcraft-web && trunk build --release"
+  command = "rustup default stable && rustup target add wasm32-unknown-unknown && cargo install trunk --locked && cd apps/pdfcraft-web && trunk build --release"
   publish = "dist/web"
 
 [[headers]]

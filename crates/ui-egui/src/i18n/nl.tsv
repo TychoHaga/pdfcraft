@@ -297,3 +297,156 @@
 	Check for updates	Controleren op updates
 	Check spelling	Spelling controleren
 	Check the pages	Pagina's controleren
+	Welcome to PdfCraft	Welkom bij de PDF-editor
+	An open-source PDF workbench — local, private, and scriptable.	Een gratis PDF-editor die lokaal in je browser werkt.
+	Recommended tools	Veelgebruikte gereedschappen
+	Use now	Nu gebruiken
+	Recent	Recent
+	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	Geopende bestanden verschijnen hier. Sleep een PDF naar dit venster om hem te openen.
+	Open a PDF	Een PDF openen
+	Open PDF	PDF openen
+	Drag and drop a PDF here	Sleep hier een PDF naartoe
+	Drag files here	Sleep bestanden hierheen
+	Choose file	Bestand kiezen
+	Select files	Bestanden selecteren
+	Combine files	Bestanden samenvoegen
+	Split PDF	PDF splitsen
+	Compress PDF	PDF comprimeren
+	Edit PDF	PDF bewerken
+	Edit text	Tekst bewerken
+	Add text	Tekst toevoegen
+	Add image	Afbeelding toevoegen
+	Add signature	Handtekening toevoegen
+	Draw	Tekenen
+	Erase	Wissen
+	Rotate	Draaien
+	Rotate left	Linksom draaien
+	Rotate right	Rechtsom draaien
+	Delete page	Pagina verwijderen
+	Insert page	Pagina invoegen
+	Move page	Pagina verplaatsen
+	Extract pages	Pagina's extraheren
+	Select pages	Pagina's selecteren
+	Select page	Pagina selecteren
+	Page range	Paginabereik
+	Current page	Huidige pagina
+	Selected pages	Geselecteerde pagina's
+	Go to page	Ga naar pagina
+	Page number	Paginanummer
+	Zoom in	Inzoomen
+	Zoom out	Uitzoomen
+	Fit page	Pagina passend maken
+	Fit width	Breedte passend maken
+	Show thumbnails	Miniaturen tonen
+	Thumbnails	Miniaturen
+	Show bookmarks	Bladwijzers tonen
+	Search document	Document doorzoeken
+	Find next	Volgende zoeken
+	Find previous	Vorige zoeken
+	Replace	Vervangen
+	Replace all	Alles vervangen
+	No matches found	Geen overeenkomsten gevonden
+	Password	Wachtwoord
+	Enter password	Voer het wachtwoord in
+	Incorrect password	Onjuist wachtwoord
+	Password required	Wachtwoord vereist
+	Document is protected	Document is beveiligd
+	Permission denied	Toegang geweigerd
+	Unable to open file	Kan bestand niet openen
+	Unable to save file	Kan bestand niet opslaan
+	Unsupported file format	Niet-ondersteund bestandsformaat
+	File not found	Bestand niet gevonden
+	File is too large	Bestand is te groot
+	An error occurred	Er is een fout opgetreden
+	Try again	Opnieuw proberen
+	Retry	Opnieuw proberen
+	Details	Details
+	Show details	Details tonen
+	Hide details	Details verbergen
+	Processing…	Bezig met verwerken…
+	Saving…	Bezig met opslaan…
+	Opening…	Bezig met openen…
+	Exporting…	Bezig met exporteren…
+	Completed	Voltooid
+	Done	Klaar
+	Continue	Doorgaan
+	Finish	Voltooien
+	Reset	Herstellen
+	Restore defaults	Standaardinstellingen herstellen
+	Confirm	Bevestigen
+	Are you sure?	Weet je het zeker?
+	Discard changes	Wijzigingen verwerpen
+	Unsaved changes	Niet-opgeslagen wijzigingen
+	Changes not saved	Wijzigingen niet opgeslagen
+	Changes saved	Wijzigingen opgeslagen
+	Download	Downloaden
+	Download PDF	PDF downloaden
+	Download file	Bestand downloaden
+	Upload	Uploaden
+	Print document	Document afdrukken
+	Print preview	Afdrukvoorbeeld
+	Paper size	Papierformaat
+	Orientation	Oriëntatie
+	Portrait	Staand
+	Landscape	Liggend
+	Margins	Marges
+	Copies	Exemplaren
+	Scale	Schaal
+	Page size	Paginaformaat
+	Background	Achtergrond
+	Foreground	Voorgrond
+	Transparent	Transparant
+	Left	Links
+	Right	Rechts
+	Top	Boven
+	Horizontal	Horizontaal
+	Vertical	Verticaal
+	Align center	Centreren
+	Align top	Boven uitlijnen
+	Align bottom	Onder uitlijnen
+	Select	Selecteren
+	Selected	Geselecteerd
+	Insert	Invoegen
+	Preview	Voorbeeld
+	Show	Tonen
+	Hide	Verbergen
+	Expand	Uitklappen
+	Collapse	Inklappen
+	Options	Opties
+	Advanced settings	Geavanceerde instellingen
+	Document	Document
+	Documents	Documenten
+	Properties	Eigenschappen
+	Metadata	Metagegevens
+	Title	Titel
+	Subject	Onderwerp
+	Keywords	Trefwoorden
+	Created	Aangemaakt
+	Modified	Gewijzigd
+	Date	Datum
+	Time	Tijd
+	Creator	Maker
+	Producer	Producent
+	Version	Versie
+	PDF version	PDF-versie
+	File size	Bestandsgrootte
+	Number of pages	Aantal pagina's
+	Total pages	Totaal aantal pagina's
+	Resolution	Resolutie
+	Quality	Kwaliteit
+	High quality	Hoge kwaliteit
+	Medium quality	Gemiddelde kwaliteit
+	Low quality	Lage kwaliteit
+	Best quality	Beste kwaliteit
+	Smaller file	Kleiner bestand
+	Compression	Compressie
+	Image quality	Afbeeldingskwaliteit
+	Output format	Uitvoerformaat
+	Destination	Bestemming
+	Choose destination	Bestemming kiezen
+	Save to file	Opslaan als bestand
+	Replace existing file	Bestaand bestand vervangen
+	Overwrite	Overschrijven
+	Do not overwrite	Niet overschrijven
+	Import files	Bestanden importeren
+	Export files	Bestanden exporteren

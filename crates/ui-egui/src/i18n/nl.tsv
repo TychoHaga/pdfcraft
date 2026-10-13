@@ -69,3 +69,231 @@
 	Marquee zoom	Inzoomen op selectie
 	Full screen mode	Volledig scherm
 	Read mode	Leesmodus
+	Copy	Kopiëren
+	Cut	Knippen
+	Paste	Plakken
+	Delete	Verwijderen
+	Select all	Alles selecteren
+	Cancel	Annuleren
+	Apply	Toepassen
+	Close	Sluiten
+	Back	Terug
+	Next	Volgende
+	Previous	Vorige
+	Name	Naam
+	File name	Bestandsnaam
+	Location	Locatie
+	Browse…	Bladeren…
+	Choose…	Kiezen…
+	Search	Zoeken
+	Refresh	Vernieuwen
+	Loading…	Laden…
+	Save changes?	Wijzigingen opslaan?
+	Don't save	Niet opslaan
+	Page	Pagina
+	Page {n}	Pagina {n}
+	of	van
+	Fit one full page	Hele pagina passend
+	Single page	Enkele pagina
+	Two-page view	Weergave met twee pagina's
+	Continuous scrolling	Doorlopend scrollen
+	Page display	Paginaweergave
+	Default page display	Standaardpaginaweergave
+	Default zoom	Standaardzoom
+	Comments	Opmerkingen
+	Comment	Opmerking
+	Add comment	Opmerking toevoegen
+	Delete comment	Opmerking verwijderen
+	Reply	Beantwoorden
+	Highlight	Markeren
+	Underline	Onderstrepen
+	Strikethrough	Doorhalen
+	Text	Tekst
+	Font	Lettertype
+	Size	Grootte
+	Color	Kleur
+	Opacity	Dekking
+	Width	Breedte
+	Height	Hoogte
+	Rotation	Rotatie
+	More	Meer
+	Settings	Instellingen
+	General	Algemeen
+	Language	Taal
+	Appearance	Uiterlijk
+	Theme	Thema
+	Light	Licht
+	Dark	Donker
+	System	Systeem
+	Open file	Bestand openen
+	Save file	Bestand opslaan
+	Export	Exporteren
+	Import	Importeren
+	Organize pages	Pagina's ordenen
+	Rotate pages…	Pagina's draaien…
+	Delete pages	Pagina's verwijderen
+	Insert blank page	Lege pagina invoegen
+	Insert pages from file…	Pagina's uit bestand invoegen…
+	Replace pages…	Pagina's vervangen…
+	Extract pages…	Pagina's extraheren…
+	Split document…	Document splitsen…
+	Number pages…	Pagina's nummeren…
+	Bookmarks	Bladwijzers
+	New bookmark	Nieuwe bladwijzer
+	Forms	Formulieren
+	Form fields	Formuliervelden
+	Signatures	Handtekeningen
+	Sign	Ondertekenen
+	Fill & Sign	Invullen en ondertekenen
+	Accessibility	Toegankelijkheid
+	Help…	Help…
+	Check for updates…	Controleren op updates…
+	About PdfCraft	Over PdfCraft
+	Automatically	Automatisch
+	Never	Nooit
+	Always	Altijd
+	Yes	Ja
+	No	Nee
+	On	Aan
+	Off	Uit
+	Enabled	Ingeschakeld
+	Disabled	Uitgeschakeld
+	Required	Verplicht
+	Optional	Optioneel
+	None	Geen
+	Unknown	Onbekend
+	Error	Fout
+	Warning	Waarschuwing
+	Information	Informatie
+	Success	Geslaagd
+	Failed	Mislukt
+	Folder	Map
+	Choose a file…	Bestand kiezen…
+	Choose a folder…	Map kiezen…
+	Open folder	Map openen
+	Create folder	Map maken
+	Remove	Verwijderen
+	Rename	Naam wijzigen
+	Duplicate	Dupliceren
+	Move	Verplaatsen
+	Copy to clipboard	Kopiëren naar klembord
+	Copied to clipboard	Gekopieerd naar klembord
+	Keyboard shortcuts	Sneltoetsen
+	Organize	Ordenen
+	Comment and review	Opmerkingen en beoordelen
+	Prepare a form	Formulier voorbereiden
+	Protect	Beveiligen
+	Print	Afdrukken
+	Create	Maken
+	Convert	Converteren
+	Optimize	Optimaliseren
+	Measure	Meten
+	Redact	Vertrouwelijke informatie verwijderen
+	Search results	Zoekresultaten
+	No results	Geen resultaten
+	Page {n} of {total}	Pagina {n} van {total}
+	{n} pages selected	{n} pagina's geselecteerd
+	1 difference found	1 verschil gevonden
+	1 file	1 bestand
+	1 file done	1 bestand verwerkt
+	1 file needs attention	1 bestand vereist aandacht
+	1 instance	1 exemplaar
+	1 issue	1 probleem
+	1 mark	1 markering
+	1 page	1 pagina
+	1 page selected	1 pagina geselecteerd
+	1 page selected.	1 pagina geselecteerd.
+	Accessibility Checker	Toegankelijkheidscontrole
+	Accessibility Checker Options	Opties voor toegankelijkheidscontrole
+	Action name:	Actienaam:
+	Actions	Acties
+	Active	Actief
+	Actual Size	Werkelijke grootte
+	Actual text	Werkelijke tekst
+	Add	Toevoegen
+	Add Step	Stap toevoegen
+	Add a comment	Opmerking toevoegen
+	Add a reply	Antwoord toevoegen
+	Add a sticky note here	Hier een notitie toevoegen
+	Add an Action	Actie toevoegen
+	Add at least two files	Voeg minimaal twee bestanden toe
+	Add files…	Bestanden toevoegen…
+	Add folder	Map toevoegen
+	Add folder and subfolders	Map en submappen toevoegen
+	Add folder and subfolders…	Map en submappen toevoegen…
+	Add folder…	Map toevoegen…
+	Add open documents	Geopende documenten toevoegen
+	Add the choices people pick from.	Voeg de beschikbare keuzemogelijkheden toe.
+	Add the files to combine	Voeg de samen te voegen bestanden toe
+	Add to Trusted Certificates	Toevoegen aan vertrouwde certificaten
+	Add to trusted certificates	Toevoegen aan vertrouwde certificaten
+	Added 1 comment	1 opmerking toegevoegd
+	Added more than once	Meer dan één keer toegevoegd
+	Added {n} comments	{n} opmerkingen toegevoegd
+	Advanced	Geavanceerd
+	Advanced Options {chevron}	Geavanceerde opties {chevron}
+	Align	Uitlijnen
+	Align left	Links uitlijnen
+	Align right	Rechts uitlijnen
+	Alignment:	Uitlijning:
+	All	Alle
+	All document contents	Alle documentinhoud
+	All document contents except metadata	Alle documentinhoud behalve metagegevens
+	All open documents	Alle geopende documenten
+	All pages	Alle pagina's
+	All pages in document	Alle pagina's in document
+	All pages in range	Alle pagina's in bereik
+	Allow Rich Text Formatting	Opgemaakte tekst toestaan
+	Allow user to enter custom text	Eigen tekst invoeren toestaan
+	Also recognize pages that already have text	Ook pagina's met bestaande tekst herkennen
+	Alternate text	Alternatieve tekst
+	Angle	Hoek
+	Animation effects	Animatie-effecten
+	Annotations, form fill-in, and digital signatures	Annotaties, formulieren invullen en digitale handtekeningen
+	Any	Alle
+	Anyone opening the document will need this password. It's applied when you save.	Iedereen die het document opent, heeft dit wachtwoord nodig. Het wordt ingesteld bij het opslaan.
+	Appearance mode	Weergavemodus
+	Appearance settings…	Weergave-instellingen…
+	Applies to 1 page	Van toepassing op 1 pagina
+	Applies to {n} pages	Van toepassing op {n} pagina's
+	Apply redactions	Verwijderingen toepassen
+	Apply scale	Schaal toepassen
+	At most	Maximaal
+	Attachments	Bijlagen
+	Author	Auteur
+	Auto	Automatisch
+	Auto portrait/landscape	Automatisch staand of liggend
+	Auto-rotate pages	Pagina's automatisch draaien
+	Available	Beschikbaar
+	Back side only	Alleen achterzijde
+	Back to all tools	Terug naar alle gereedschappen
+	Back to the document	Terug naar document
+	Before the number	Voor het nummer
+	Black and white	Zwart-wit
+	Bold	Vet
+	Booklet	Boekje
+	Bookmark options	Bladwijzeropties
+	Border Color:	Randkleur:
+	Borders and Colors	Randen en kleuren
+	Both sides	Beide zijden
+	Bottom	Onder
+	Bottom:	Onder:
+	Box	Vak
+	Browser's print dialog	Afdrukvenster van browser
+	Bytes	Bytes
+	Cancelling…	Annuleren…
+	Case-sensitive	Hoofdlettergevoelig
+	Category:	Categorie:
+	Center	Centreren
+	Center window on screen	Venster centreren op scherm
+	Centre	Midden
+	Certify	Certificeren
+	Change settings…	Instellingen wijzigen…
+	Change {what}	{what} wijzigen
+	Changes allowed	Toegestane wijzigingen
+	Character spacing	Tekenafstand
+	Check Again	Opnieuw controleren
+	Check again	Opnieuw controleren
+	Check for updates	Controleren op updates
+	Check spelling	Spelling controleren
+	Check the pages	Pagina's controleren

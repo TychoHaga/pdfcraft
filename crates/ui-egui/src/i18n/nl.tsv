@@ -1,0 +1,452 @@
+# Dutch (nl), initial core-menu translation. Missing strings fall back to English.
+	Menu	Menu
+	File	Bestand
+	Edit	Bewerken
+	Pages	Pagina's
+	View	Beeld
+	Help	Help
+	Zoom	Zoomen
+	Actual size	Werkelijke grootte
+	Zoom to page level	Pagina passend
+	Fit to width	Aan breedte aanpassen
+	Display theme	Weergavethema
+	Side panels	Zijpanelen
+	Preferences	Voorkeuren
+	Preferences…	Voorkeuren…
+	Interface language	Interfacetaal
+	Interface size	Interfacegrootte
+	Auto ({percent}%)	Automatisch ({percent}%)
+	Identity	Identiteit
+	Name on new comments	Naam bij nieuwe opmerkingen
+	Enable Acrobat JavaScript	Acrobat JavaScript inschakelen
+	OK	OK
+	Open…	Openen…
+	Open Recent	Recent geopend
+	Clear Recent Files	Recente bestanden wissen
+	Remove from Recent	Uit recente bestanden verwijderen
+	Remove {name} from Recent	{name} uit recente bestanden verwijderen
+	Clear	Wissen
+	Pin folder to Home…	Map vastmaken aan startpagina…
+	No recent files	Geen recente bestanden
+	New blank PDF	Nieuwe lege PDF
+	Create PDF from file…	PDF maken van bestand…
+	Create PDF from images…	PDF maken van afbeeldingen…
+	Create PDF from multiple files…	PDF maken van meerdere bestanden…
+	Create separate PDFs…	Afzonderlijke PDF's maken…
+	Create PDF from clipboard	PDF maken vanaf klembord
+	Combine files…	Bestanden samenvoegen…
+	Save	Opslaan
+	Save as…	Opslaan als…
+	Close file	Bestand sluiten
+	Close all	Alles sluiten
+	Revert	Terugzetten
+	Print…	Afdrukken…
+	Document properties…	Documenteigenschappen…
+	Export to image…	Exporteren als afbeelding…
+	Reduce file size…	Bestand verkleinen…
+	Optimize PDF…	PDF optimaliseren…
+	Export to text…	Exporteren als tekst…
+	Export to Word…	Exporteren naar Word…
+	Export to PowerPoint…	Exporteren naar PowerPoint…
+	Export to HTML…	Exporteren naar HTML…
+	Export to RTF…	Exporteren naar RTF…
+	Export all images…	Alle afbeeldingen exporteren…
+	Protect using password…	Met wachtwoord beveiligen…
+	Remove security	Beveiliging verwijderen
+	Security properties…	Beveiligingseigenschappen…
+	Undo	Ongedaan maken
+	Redo	Opnieuw uitvoeren
+	Find…	Zoeken…
+	Advanced search…	Uitgebreid zoeken…
+	Take a snapshot	Momentopname maken
+	Column select	Kolom selecteren
+	Clear form	Formulier wissen
+	Copy pages	Pagina's kopiëren
+	Cut pages	Pagina's knippen
+	Paste pages	Pagina's plakken
+	Find tools and commands…	Gereedschappen en opdrachten zoeken…
+	Fit visible	Zichtbare inhoud passend
+	Marquee zoom	Inzoomen op selectie
+	Full screen mode	Volledig scherm
+	Read mode	Leesmodus
+	Copy	Kopiëren
+	Cut	Knippen
+	Paste	Plakken
+	Delete	Verwijderen
+	Select all	Alles selecteren
+	Cancel	Annuleren
+	Apply	Toepassen
+	Close	Sluiten
+	Back	Terug
+	Next	Volgende
+	Previous	Vorige
+	Name	Naam
+	File name	Bestandsnaam
+	Location	Locatie
+	Browse…	Bladeren…
+	Choose…	Kiezen…
+	Search	Zoeken
+	Refresh	Vernieuwen
+	Loading…	Laden…
+	Save changes?	Wijzigingen opslaan?
+	Don't save	Niet opslaan
+	Page	Pagina
+	Page {n}	Pagina {n}
+	of	van
+	Fit one full page	Hele pagina passend
+	Single page	Enkele pagina
+	Two-page view	Weergave met twee pagina's
+	Continuous scrolling	Doorlopend scrollen
+	Page display	Paginaweergave
+	Default page display	Standaardpaginaweergave
+	Default zoom	Standaardzoom
+	Comments	Opmerkingen
+	Comment	Opmerking
+	Add comment	Opmerking toevoegen
+	Delete comment	Opmerking verwijderen
+	Reply	Beantwoorden
+	Highlight	Markeren
+	Underline	Onderstrepen
+	Strikethrough	Doorhalen
+	Text	Tekst
+	Font	Lettertype
+	Size	Grootte
+	Color	Kleur
+	Opacity	Dekking
+	Width	Breedte
+	Height	Hoogte
+	Rotation	Rotatie
+	More	Meer
+	Settings	Instellingen
+	General	Algemeen
+	Language	Taal
+	Appearance	Uiterlijk
+	Theme	Thema
+	Light	Licht
+	Dark	Donker
+	System	Systeem
+	Open file	Bestand openen
+	Save file	Bestand opslaan
+	Export	Exporteren
+	Import	Importeren
+	Organize pages	Pagina's ordenen
+	Rotate pages…	Pagina's draaien…
+	Delete pages	Pagina's verwijderen
+	Insert blank page	Lege pagina invoegen
+	Insert pages from file…	Pagina's uit bestand invoegen…
+	Replace pages…	Pagina's vervangen…
+	Extract pages…	Pagina's extraheren…
+	Split document…	Document splitsen…
+	Number pages…	Pagina's nummeren…
+	Bookmarks	Bladwijzers
+	New bookmark	Nieuwe bladwijzer
+	Forms	Formulieren
+	Form fields	Formuliervelden
+	Signatures	Handtekeningen
+	Sign	Ondertekenen
+	Fill & Sign	Invullen en ondertekenen
+	Accessibility	Toegankelijkheid
+	Help…	Help…
+	Check for updates…	Controleren op updates…
+	About PdfCraft	Over PdfCraft
+	Automatically	Automatisch
+	Never	Nooit
+	Always	Altijd
+	Yes	Ja
+	No	Nee
+	On	Aan
+	Off	Uit
+	Enabled	Ingeschakeld
+	Disabled	Uitgeschakeld
+	Required	Verplicht
+	Optional	Optioneel
+	None	Geen
+	Unknown	Onbekend
+	Error	Fout
+	Warning	Waarschuwing
+	Information	Informatie
+	Success	Geslaagd
+	Failed	Mislukt
+	Folder	Map
+	Choose a file…	Bestand kiezen…
+	Choose a folder…	Map kiezen…
+	Open folder	Map openen
+	Create folder	Map maken
+	Remove	Verwijderen
+	Rename	Naam wijzigen
+	Duplicate	Dupliceren
+	Move	Verplaatsen
+	Copy to clipboard	Kopiëren naar klembord
+	Copied to clipboard	Gekopieerd naar klembord
+	Keyboard shortcuts	Sneltoetsen
+	Organize	Ordenen
+	Comment and review	Opmerkingen en beoordelen
+	Prepare a form	Formulier voorbereiden
+	Protect	Beveiligen
+	Print	Afdrukken
+	Create	Maken
+	Convert	Converteren
+	Optimize	Optimaliseren
+	Measure	Meten
+	Redact	Vertrouwelijke informatie verwijderen
+	Search results	Zoekresultaten
+	No results	Geen resultaten
+	Page {n} of {total}	Pagina {n} van {total}
+	{n} pages selected	{n} pagina's geselecteerd
+	1 difference found	1 verschil gevonden
+	1 file	1 bestand
+	1 file done	1 bestand verwerkt
+	1 file needs attention	1 bestand vereist aandacht
+	1 instance	1 exemplaar
+	1 issue	1 probleem
+	1 mark	1 markering
+	1 page	1 pagina
+	1 page selected	1 pagina geselecteerd
+	1 page selected.	1 pagina geselecteerd.
+	Accessibility Checker	Toegankelijkheidscontrole
+	Accessibility Checker Options	Opties voor toegankelijkheidscontrole
+	Action name:	Actienaam:
+	Actions	Acties
+	Active	Actief
+	Actual Size	Werkelijke grootte
+	Actual text	Werkelijke tekst
+	Add	Toevoegen
+	Add Step	Stap toevoegen
+	Add a comment	Opmerking toevoegen
+	Add a reply	Antwoord toevoegen
+	Add a sticky note here	Hier een notitie toevoegen
+	Add an Action	Actie toevoegen
+	Add at least two files	Voeg minimaal twee bestanden toe
+	Add files…	Bestanden toevoegen…
+	Add folder	Map toevoegen
+	Add folder and subfolders	Map en submappen toevoegen
+	Add folder and subfolders…	Map en submappen toevoegen…
+	Add folder…	Map toevoegen…
+	Add open documents	Geopende documenten toevoegen
+	Add the choices people pick from.	Voeg de beschikbare keuzemogelijkheden toe.
+	Add the files to combine	Voeg de samen te voegen bestanden toe
+	Add to Trusted Certificates	Toevoegen aan vertrouwde certificaten
+	Add to trusted certificates	Toevoegen aan vertrouwde certificaten
+	Added 1 comment	1 opmerking toegevoegd
+	Added more than once	Meer dan één keer toegevoegd
+	Added {n} comments	{n} opmerkingen toegevoegd
+	Advanced	Geavanceerd
+	Advanced Options {chevron}	Geavanceerde opties {chevron}
+	Align	Uitlijnen
+	Align left	Links uitlijnen
+	Align right	Rechts uitlijnen
+	Alignment:	Uitlijning:
+	All	Alle
+	All document contents	Alle documentinhoud
+	All document contents except metadata	Alle documentinhoud behalve metagegevens
+	All open documents	Alle geopende documenten
+	All pages	Alle pagina's
+	All pages in document	Alle pagina's in document
+	All pages in range	Alle pagina's in bereik
+	Allow Rich Text Formatting	Opgemaakte tekst toestaan
+	Allow user to enter custom text	Eigen tekst invoeren toestaan
+	Also recognize pages that already have text	Ook pagina's met bestaande tekst herkennen
+	Alternate text	Alternatieve tekst
+	Angle	Hoek
+	Animation effects	Animatie-effecten
+	Annotations, form fill-in, and digital signatures	Annotaties, formulieren invullen en digitale handtekeningen
+	Any	Alle
+	Anyone opening the document will need this password. It's applied when you save.	Iedereen die het document opent, heeft dit wachtwoord nodig. Het wordt ingesteld bij het opslaan.
+	Appearance mode	Weergavemodus
+	Appearance settings…	Weergave-instellingen…
+	Applies to 1 page	Van toepassing op 1 pagina
+	Applies to {n} pages	Van toepassing op {n} pagina's
+	Apply redactions	Verwijderingen toepassen
+	Apply scale	Schaal toepassen
+	At most	Maximaal
+	Attachments	Bijlagen
+	Author	Auteur
+	Auto	Automatisch
+	Auto portrait/landscape	Automatisch staand of liggend
+	Auto-rotate pages	Pagina's automatisch draaien
+	Available	Beschikbaar
+	Back side only	Alleen achterzijde
+	Back to all tools	Terug naar alle gereedschappen
+	Back to the document	Terug naar document
+	Before the number	Voor het nummer
+	Black and white	Zwart-wit
+	Bold	Vet
+	Booklet	Boekje
+	Bookmark options	Bladwijzeropties
+	Border Color:	Randkleur:
+	Borders and Colors	Randen en kleuren
+	Both sides	Beide zijden
+	Bottom	Onder
+	Bottom:	Onder:
+	Box	Vak
+	Browser's print dialog	Afdrukvenster van browser
+	Bytes	Bytes
+	Cancelling…	Annuleren…
+	Case-sensitive	Hoofdlettergevoelig
+	Category:	Categorie:
+	Center	Centreren
+	Center window on screen	Venster centreren op scherm
+	Centre	Midden
+	Certify	Certificeren
+	Change settings…	Instellingen wijzigen…
+	Change {what}	{what} wijzigen
+	Changes allowed	Toegestane wijzigingen
+	Character spacing	Tekenafstand
+	Check Again	Opnieuw controleren
+	Check again	Opnieuw controleren
+	Check for updates	Controleren op updates
+	Check spelling	Spelling controleren
+	Check the pages	Pagina's controleren
+	Welcome to PdfCraft	Welkom bij de PDF-editor
+	An open-source PDF workbench — local, private, and scriptable.	Een gratis PDF-editor die lokaal in je browser werkt.
+	Recommended tools	Veelgebruikte gereedschappen
+	Use now	Nu gebruiken
+	Recent	Recent
+	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	Geopende bestanden verschijnen hier. Sleep een PDF naar dit venster om hem te openen.
+	Open a PDF	Een PDF openen
+	Open PDF	PDF openen
+	Drag and drop a PDF here	Sleep hier een PDF naartoe
+	Drag files here	Sleep bestanden hierheen
+	Choose file	Bestand kiezen
+	Select files	Bestanden selecteren
+	Combine files	Bestanden samenvoegen
+	Split PDF	PDF splitsen
+	Compress PDF	PDF comprimeren
+	Edit PDF	PDF bewerken
+	Edit text	Tekst bewerken
+	Add text	Tekst toevoegen
+	Add image	Afbeelding toevoegen
+	Add signature	Handtekening toevoegen
+	Draw	Tekenen
+	Erase	Wissen
+	Rotate	Draaien
+	Rotate left	Linksom draaien
+	Rotate right	Rechtsom draaien
+	Delete page	Pagina verwijderen
+	Insert page	Pagina invoegen
+	Move page	Pagina verplaatsen
+	Extract pages	Pagina's extraheren
+	Select pages	Pagina's selecteren
+	Select page	Pagina selecteren
+	Page range	Paginabereik
+	Current page	Huidige pagina
+	Selected pages	Geselecteerde pagina's
+	Go to page	Ga naar pagina
+	Page number	Paginanummer
+	Zoom in	Inzoomen
+	Zoom out	Uitzoomen
+	Fit page	Pagina passend maken
+	Fit width	Breedte passend maken
+	Show thumbnails	Miniaturen tonen
+	Thumbnails	Miniaturen
+	Show bookmarks	Bladwijzers tonen
+	Search document	Document doorzoeken
+	Find next	Volgende zoeken
+	Find previous	Vorige zoeken
+	Replace	Vervangen
+	Replace all	Alles vervangen
+	No matches found	Geen overeenkomsten gevonden
+	Password	Wachtwoord
+	Enter password	Voer het wachtwoord in
+	Incorrect password	Onjuist wachtwoord
+	Password required	Wachtwoord vereist
+	Document is protected	Document is beveiligd
+	Permission denied	Toegang geweigerd
+	Unable to open file	Kan bestand niet openen
+	Unable to save file	Kan bestand niet opslaan
+	Unsupported file format	Niet-ondersteund bestandsformaat
+	File not found	Bestand niet gevonden
+	File is too large	Bestand is te groot
+	An error occurred	Er is een fout opgetreden
+	Try again	Opnieuw proberen
+	Retry	Opnieuw proberen
+	Details	Details
+	Show details	Details tonen
+	Hide details	Details verbergen
+	Processing…	Bezig met verwerken…
+	Saving…	Bezig met opslaan…
+	Opening…	Bezig met openen…
+	Exporting…	Bezig met exporteren…
+	Completed	Voltooid
+	Done	Klaar
+	Continue	Doorgaan
+	Finish	Voltooien
+	Reset	Herstellen
+	Restore defaults	Standaardinstellingen herstellen
+	Confirm	Bevestigen
+	Are you sure?	Weet je het zeker?
+	Discard changes	Wijzigingen verwerpen
+	Unsaved changes	Niet-opgeslagen wijzigingen
+	Changes not saved	Wijzigingen niet opgeslagen
+	Changes saved	Wijzigingen opgeslagen
+	Download	Downloaden
+	Download PDF	PDF downloaden
+	Download file	Bestand downloaden
+	Upload	Uploaden
+	Print document	Document afdrukken
+	Print preview	Afdrukvoorbeeld
+	Paper size	Papierformaat
+	Orientation	Oriëntatie
+	Portrait	Staand
+	Landscape	Liggend
+	Margins	Marges
+	Copies	Exemplaren
+	Scale	Schaal
+	Page size	Paginaformaat
+	Background	Achtergrond
+	Foreground	Voorgrond
+	Transparent	Transparant
+	Left	Links
+	Right	Rechts
+	Top	Boven
+	Horizontal	Horizontaal
+	Vertical	Verticaal
+	Align center	Centreren
+	Align top	Boven uitlijnen
+	Align bottom	Onder uitlijnen
+	Select	Selecteren
+	Selected	Geselecteerd
+	Insert	Invoegen
+	Preview	Voorbeeld
+	Show	Tonen
+	Hide	Verbergen
+	Expand	Uitklappen
+	Collapse	Inklappen
+	Options	Opties
+	Advanced settings	Geavanceerde instellingen
+	Document	Document
+	Documents	Documenten
+	Properties	Eigenschappen
+	Metadata	Metagegevens
+	Title	Titel
+	Subject	Onderwerp
+	Keywords	Trefwoorden
+	Created	Aangemaakt
+	Modified	Gewijzigd
+	Date	Datum
+	Time	Tijd
+	Creator	Maker
+	Producer	Producent
+	Version	Versie
+	PDF version	PDF-versie
+	File size	Bestandsgrootte
+	Number of pages	Aantal pagina's
+	Total pages	Totaal aantal pagina's
+	Resolution	Resolutie
+	Quality	Kwaliteit
+	High quality	Hoge kwaliteit
+	Medium quality	Gemiddelde kwaliteit
+	Low quality	Lage kwaliteit
+	Best quality	Beste kwaliteit
+	Smaller file	Kleiner bestand
+	Compression	Compressie
+	Image quality	Afbeeldingskwaliteit
+	Output format	Uitvoerformaat
+	Destination	Bestemming
+	Choose destination	Bestemming kiezen
+	Save to file	Opslaan als bestand
+	Replace existing file	Bestaand bestand vervangen
+	Overwrite	Overschrijven
+	Do not overwrite	Niet overschrijven
+	Import files	Bestanden importeren
+	Export files	Bestanden exporteren
